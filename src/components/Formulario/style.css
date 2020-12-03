@@ -1,0 +1,23 @@
+.form-cadastro{
+
+    padding: 0 2%;
+    width: 25%;
+    height: 100%;
+    border-right: 3px solid #444;
+}
+
+.form-text{
+    width:100%;
+    height: 30px;
+    margin: 5px 0;
+}
+
+.form-textarea{
+    width:100%;
+    margin: 5px 0;
+}
+
+.btn{
+    width:140px;
+    height:45px;
+}

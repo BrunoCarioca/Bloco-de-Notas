@@ -1,8 +1,14 @@
+import Formulario from "./components/Formulario"
+import ListaDeNotas from "./components/ListaDeNotas"
+import "./style.css"
+
+
 function App() {
   return (
-    <div className="App">
-      <h1>Olá mundo</h1>
-    </div>
+    <section className="section1">
+      <Formulario/>
+      <ListaDeNotas/>
+    </section>
   );
 }
 
