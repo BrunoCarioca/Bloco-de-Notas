@@ -1,4 +1,15 @@
 .lista-flex{
     width: 75%;
-    height: 100%;
+    padding: 0 2%;
+    margin: 0;
+    overflow: scroll;
+}
+
+.lista{
+    display: inline-block;
+    width: 28%;
+    padding: 10px 2%;
+    margin: 5px 5px;
+    background-color: rgb(220, 220, 220);
+    
 }

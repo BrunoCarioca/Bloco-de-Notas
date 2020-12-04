@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import CardNota from '../CardNota/';
 import "./style.css";
 
 class ListaDeNotas extends Component {
@@ -8,10 +9,10 @@ class ListaDeNotas extends Component {
 
             <div className="lista-flex">
                 <ul>
-                    {Array.of(1,1,1).map((categoria, index) =>{
+                    {Array.of(1,1,1,1,1).map((categoria, index) =>{
                         return(
                             <li key={index} className="lista">
-                                <p>item {index}</p>
+                                <CardNota/>
                             </li>
                         );
                     })}
