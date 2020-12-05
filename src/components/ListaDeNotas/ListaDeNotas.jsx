@@ -9,10 +9,10 @@ class ListaDeNotas extends Component {
 
             <div className="lista-flex">
                 <ul>
-                    {Array.of(1,1,1,1,1).map((categoria, index) =>{
+                    {this.props.notas.map((nota, index) =>{
                         return(
                             <li key={index} className="lista">
-                                <CardNota/>
+                                <CardNota titulo={nota.titulo} texto={nota.texto} />
                             </li>
                         );
                     })}

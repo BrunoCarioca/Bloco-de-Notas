@@ -7,10 +7,10 @@ class CardNota extends Component {
         return (
             <div className="Nota-wrapper">
                 <header>
-                    <h2 className="nota-title">Título</h2>
+                    <h2 className="nota-title">{this.props.titulo}</h2>
                 </header>
-                <article class="nota-content">
-                    <p>Aqui fica o conteúdo da nota</p>
+                <article className="nota-content">
+                    <p>{this.props.texto}</p>
                 </article>
             </div>
         )}
